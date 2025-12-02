@@ -1,11 +1,35 @@
 # DHGLMs
 
-Aqui se encuentran todos los archivos y códigos necesarios para usar Double-hierarchical generalized linear models (DHGLMs) for analyzing isotopic data with hierarchical structures.
-Los análisis realizados y figuras obtenidas corresponden al artículo: A new approach to quantify isotopic (co)variation across levels of biological organization using double-hierarchical generalized linear models (Garrido-de León et al.)
-Se encuentran divididos en 3 niveles (correspondiendo cada uno de ellos a un nivel de organización biológica): individual, population and community-level. 
-Se detallan los análisis para obtener: (i) Repetability index, (ii) correlation parameters for the variance components of the models, and (iii) estimates of posterior distribution residual intra-individual variation for carbon and nitrogen.
-(a), (b) y (c) son calculados para cada nivel. Notar que para los tres niveles utilizados fueron realizados los mismas estimaciones, a saber: (i), (ii) y (iii)
+This repository contains all files and code required to implement Double-Hierarchical Generalized Linear Models (DHGLMs) for analyzing isotopic data with hierarchical structures.
 
-Folder "Individual-level_fur seals" contiene los análisis para A. australis y las figuras relacionadas Fig 3a (correlation variance components) y Fig 4 (residual intraunit variance).
-Folder "Population-level_rodents" contiene los análisis para M. gapperi y las figuras relacionadas Fig 3b (correlation variance components) y Fig 5 (residual intraunit variance).
-Folder "Community-level_ponds spp" contiene los análisis para multiple pond spp y las figuras relacionadas Fig 3c (correlation variance components) y Fig 6 (residual intraunit variance).
+The analyses and figures included here correspond to the manuscript:
+“A new approach to quantify isotopic (co)variation across levels of biological organization using double-hierarchical generalized linear models” (Garrido-de León et al.)
+
+All materials are organized into three biological levels, each representing a level of hierarchical organization:
+individual, population, and community.
+
+For each level, we provide detailed workflows to obtain:
+
+Repeatability indices, Correlation parameters for model variance components, and Posterior estimates of residual intra-individual variation for carbon and nitrogen isotopes.
+
+Note that these three outputs—(i), (ii), and (iii)—were estimated for each biological level.
+
+Folder Structure
+
+Individual-level_fur seals/
+Contains the analyses for Arctocephalus australis and the associated figures:
+
+Fig. 3a — Correlation among variance components
+Fig. 4 — Residual intra-unit variance
+
+Population-level_rodents/
+Contains the analyses for Myodes gapperi and the associated figures:
+
+Fig. 3b — Correlation among variance components
+Fig. 5 — Residual intra-unit variance
+
+Community-level_ponds spp/
+Contains the analyses for multiple pond species and the associated figures:
+
+Fig. 3c — Correlation among variance components
+Fig. 6 — Residual intra-unit variance
